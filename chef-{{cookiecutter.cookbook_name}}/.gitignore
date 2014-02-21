@@ -1,0 +1,33 @@
+# Common cookbook service files
+.vagrant
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+/vendor
+.DS_STORE
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+# Test harnesses service files
+.kitchen/
+.kitchen.local.yml
+.project
+.leibniz/
+.leibniz.yml
+spec/reports
+test/tmp
+test/version_tmp
+tmp

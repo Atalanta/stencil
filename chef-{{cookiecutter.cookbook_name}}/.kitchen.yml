@@ -1,0 +1,22 @@
+---
+driver_plugin: ec2
+driver_config:
+  aws_access_key_id: <%= ENV['AWS_ACCESS_KEY'] %>
+  aws_secret_access_key: <%= ENV['AWS_SECRET_KEY'] %>
+  aws_ssh_key_id: <%= ENV['AWS_SSH_KEY_ID'] %>
+  ssh_key: <%= File.expand_path('~/.ssh/sdfe.pem' )%>
+  interface: private
+  region: eu-west-1
+  availability_zone: eu-west-1b
+  require_chef_omnibus: true
+  tags:
+    Name: 'test-kitchen {{cookiecutter.cookbook_name}}'
+    Created-by: test-kitchen
+
+platforms:
+- name: centos-6.4
+
+suites:
+- name: default
+  run_list: ["recipe[{{cookiecutter.cookbook_name}}]"]
+  attributes: {}

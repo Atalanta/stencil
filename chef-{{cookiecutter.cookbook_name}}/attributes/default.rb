@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: {{cookiecutter.cookbook_name}}
-# Recipe:: default
+# Attributes:: default
 #
 # Copyright {{cookiecutter.year}}, {{cookiecutter.company_name}}
 #

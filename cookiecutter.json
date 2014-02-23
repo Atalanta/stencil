@@ -6,5 +6,5 @@
     "release_date": "2014-02-24",
     "year": "2014",
     "version": "0.0.1",
-    "aws_private_ssh": ""
+    "aws_private_ssh_key": ""
 }

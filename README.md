@@ -10,7 +10,8 @@
 ## Usage
 
 ```bash
-cookiecutter http://git.atalanta-systems.com/chef-cookbook-template.git
+git clone git@git.atalanta-systems.com:chef-cookbook-template.git
+cookiecutter chef-cookbook-template
 ```
 
 This will clone `chef-cookbook-template` in your `~/.cookiecutter` repository.

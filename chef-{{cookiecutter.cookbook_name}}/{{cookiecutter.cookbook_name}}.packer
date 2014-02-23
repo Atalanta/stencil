@@ -6,7 +6,7 @@
     "instance_type": "m3.large",
     "ssh_timeout": "10m",
     "ssh_username": "root",
-    "ami_name": "sdfe-{{cookiecutter.cookbook_name}} {{timestamp}}"
+    "ami_name": "{{cookiecutter.cookbook_name}} {{timestamp}}"
   }],
   "provisioners": [{
     "type": "chef-solo",

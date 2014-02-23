@@ -1,4 +1,4 @@
-# Cookiecutter Atalanta/SDFE chef cookbook template
+# Cookiecutter Atalanta new chef cookbook template
 
   * Cookiecutter template for generating sane chef cookbook skeleton.
 

@@ -4,7 +4,7 @@ driver_config:
   aws_access_key_id: <%= ENV['AWS_ACCESS_KEY'] %>
   aws_secret_access_key: <%= ENV['AWS_SECRET_KEY'] %>
   aws_ssh_key_id: <%= ENV['AWS_SSH_KEY_ID'] %>
-  ssh_key: <%= File.expand_path('~/.ssh/sdfe.pem' )%>
+  ssh_key: <%= File.expand_path('{{cookiecutter.aws_private_ssh}}')%>
   interface: private
   region: eu-west-1
   availability_zone: eu-west-1b

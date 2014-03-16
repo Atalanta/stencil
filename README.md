@@ -45,7 +45,7 @@ cd ${DIRECTORY_YOU_WISH_TO_CREATE_THE_COOKBOOK_IN}
 cookiecutter ~/.cookbooks/chef-cookbook-template
 ```
 
-**OR if you've aliased berks**
+**OR if you've aliased cookiecutter new chef cookbook template command**
 
 ```bash
 ncc
